@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "phani-vemuri-sandbox-tfstate"
     prefix = "env/dev"
   }
 }
